@@ -1,10 +1,10 @@
 import streamlit as st
 from data_helper import create_table_and_insert_data, execute_query, fetch_table_names, fetch_table_data
 
-st.title("Base de Datos - Empresa")
+st.title("Base de Datos Empresa")
 
 
-menu = ["Cargar Datos", "Consultas", "Ver Tablas"]
+menu = ["Cargar Datos", "Ver Tablas","Consultas"]
 choice = st.sidebar.selectbox("Selecciona una opción", menu)
 
 
