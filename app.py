@@ -81,7 +81,7 @@ elif choice == "Ver Tablas":
         else:
             st.warning("No hay tablas en la base de datos.")
     except Exception as e:
-        st.error(f"Error al recuperar las tablas: {e}")
+        st.error(f"Error no se recuperar las tablas: {e}")
 
 
 
