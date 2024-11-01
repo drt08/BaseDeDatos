@@ -4,7 +4,7 @@ from data_helper import create_table_and_insert_data, execute_query, fetch_table
 st.title("Base de Datos Empresa")
 
 
-menu = ["Cargar Datos", "Consultas", "Ver Tablas"]
+menu = ["Cargar Datos", "Ver Tablas","Consultas"]
 choice = st.sidebar.selectbox("Selecciona una opción", menu)
 
 
